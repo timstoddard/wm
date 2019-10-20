@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "outDir": "build",
+    "lib": [
+      "es7",
+      "dom"
+    ]
+  },
+  "files": ["src/scraper.ts"]
+}
